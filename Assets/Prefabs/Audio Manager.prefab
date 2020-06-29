@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8241710658665878520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8241710658665878523}
+  - component: {fileID: 8241710658665878522}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8241710658665878523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241710658665878520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8241710658665878522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241710658665878520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a00fb853e63574bbd021079a81ce2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: FireBall
+    Clip: {fileID: 8300000, guid: ea3f123c4dfdc8b46b78867f64bf83d6, type: 3}
+    Volume: 0.164
+    Pitch: 1.14
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: FireExplosion
+    Clip: {fileID: 8300000, guid: 2a8380ed1a84e6c4bb8ef692cbdc8692, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: Winner
+    Clip: {fileID: 8300000, guid: dbce89e53ab0d74478cb9279d7739d35, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: Bell
+    Clip: {fileID: 8300000, guid: 94177226a2a27bf44bc0c69dd2e4eab9, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: Menu
+    Clip: {fileID: 8300000, guid: 1afef14dad0c5ab49b6b74c4c03b519f, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 1
+    AudioSource: {fileID: 0}
+  - Name: PlayerDeath
+    Clip: {fileID: 8300000, guid: 8d04651f2e8094b41b47a44596f6c987, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: PlayerHurt
+    Clip: {fileID: 8300000, guid: 4537d0abcbb65b44aa2063c71ef41787, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: EnemyDeath
+    Clip: {fileID: 8300000, guid: 137f052f395befb42a728a838df3d3c3, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: HealthPotion
+    Clip: {fileID: 8300000, guid: b191fe7207de68c4bbcd2f104191db68, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: LightningBall
+    Clip: {fileID: 8300000, guid: 96a7993422e1dce408f8cbb7b895ca1d, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: LightningExplosion
+    Clip: {fileID: 8300000, guid: 49448850556543e4f90f09f52102be95, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: IceExplosion
+    Clip: {fileID: 8300000, guid: c14ce1bae431263489b3aa49d20232d6, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: IceBall
+    Clip: {fileID: 8300000, guid: 9f8caa51c33057343a145c1d58b5c2e1, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: WhiteBall
+    Clip: {fileID: 8300000, guid: ea6aa3a111fcab6429cabe0168076748, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: WhiteExplosion
+    Clip: {fileID: 8300000, guid: 254aa703644a8cb42bd3cbe0ef22029a, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: Earthquake
+    Clip: {fileID: 8300000, guid: 2f48f314855e5ab47bca8a068b8dcc7d, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: OpenJailDoor
+    Clip: {fileID: 8300000, guid: 46418489f290890458089a26282e6f98, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: OpenGate
+    Clip: {fileID: 8300000, guid: f3cccaed2e31e654d962a2486bb6d267, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 0
+    AudioSource: {fileID: 0}
+  - Name: Background
+    Clip: {fileID: 8300000, guid: 37da23760bf599f4dac82d6d291b46e4, type: 3}
+    Volume: 0.347
+    Pitch: 1.16
+    Loop: 1
+    AudioSource: {fileID: 0}
